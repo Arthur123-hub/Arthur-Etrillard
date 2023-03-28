@@ -1,7 +1,57 @@
+<!DOCTYPE html>
 <html>
-    <h1>Arthur Etrillard</h1>
-    <h2>Bonjour C'est moi Arthur houhou</h2>
-    <h3>Je veux aller dans votre école s'il vous plaît
-        J'adore l'HTML !
-    </h3>
+<head>
+	<title>Arthur</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/Users/arthuretrillardgmail.com/Downloads/Styles2.css">
+</head>
+<body>
+	<header>
+		<h1>Bienvenue sur mon portfolio</h1>
+		<nav>
+			<ul>
+				<li><a href="#about-me">About Me</a></li>
+				<li><a href="#my-projects">My Projects</a></li>
+				<li><a href="#contact-me">Contact Me</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="about-me">
+			<h2>À propos de moi</h2>
+			<p>Insert a brief introduction of yourself here.</p>
+		</section>
+		<section id="my-projects">
+			<h2>Mes Projets</h2>
+			<ul>
+				<li>
+					<h3>Projet 1</h3>
+					<p>Insert a brief description of your first project here.</p>
+				</li>
+				<li>
+					<h3>Projet 2</h3>
+					<p>Insert a brief description of your second project ici.</p>
+				</li>
+				<!-- Add more project sections as needed -->
+			</ul>
+		</section>
+		<section id="contact-me">
+			<h2>Contactez-moi</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email">
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 My Portfolio. All rights reserved.</p>
+	</footer>
+	<!-- Add any JavaScript files or scripts here -->
+</body>
 </html>
