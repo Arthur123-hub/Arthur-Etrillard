@@ -20,7 +20,7 @@
 	<main>
 		<section id="about-me">
 			<h2>À propos de moi</h2>
-			<p>Insert a brief introduction of yourself here.</p>
+			<p>Je m'appelle Arthur Etrillard et je suis un lycéen passionné par l'informatique, la programmation et la création en 3D sur Blender. Je suis actuellement inscrit au lycée Jeanne d'Arc à Rouen, où je poursuis des études générales tout en cultivant ma passion pour la technologie. J'ai développé des compétences en modélisation et en rendu 3D grâce à l'utilisation de Blender. Au fil du temps, j'ai créé de nombreux projets qui ont renforcé mes compétences et m'ont permis d'explorer différentes facettes de la création en 3D.</p>
 		</section>
 		<section id="my-projects">
 			<h2>Mes Projets</h2>
