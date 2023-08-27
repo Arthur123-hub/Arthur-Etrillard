@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arthur Etrillard</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Styles2.css">
+</head>
+<body>
+	<header>
+		<img class="header-logo" src="Photo de profil.jpg" alt="Photo de profil">
+		<h1 class="header h1">
+			<a href="#top" class="header-title-link">Arthur Etrillard</a>
+		</h1>
+		<nav>
+			<ul>
+				<li><a href="#my-projects">Mes Projets</a></li>
+				<li><a href="#contact-me">Contactez-moi</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="about-me">
+			<h2>À propos</h2>
+			<p>Je suis passionné d'informatique, de programmation et de création en 3D avec Blender. Je suis actuellement inscrit à l'ESILV, où je débute des études d'ingénieur tout en continuant de cultiver ma passion pour la technologie. Grâce à l'utilisation de Blender, j'ai développé des compétences en modélisation et en rendu 3D. Au fil du temps, j'ai créé de nombreux projets qui m'ont permis de renforcer mes compétences et d'explorer différentes facettes de la création en 3D.</p>
+		</section>
+		<section id="my-projects">
+			<h2>Mes Projets</h2>
+			<ul>
+				<li>
+					<h3>Cuisine professionnelle</h3>
+					<p>J'ai conçu en 3D une cuisine professionnelle pour un projet de BTS Hôtellerie-Restauration, ce qui m'a permis de développer mes compétences en travail d'équipe. J'ai réalisé la modélisation et la texture de tous les éléments de la salle, de la cuisine et de la terrasse. </p>
+					<img src="Terrasse.png" alt="Un rendu de la terrasse"><img src="Salle restaurant.png" alt="Un rendu de la salle"><img src="Cuisine restaurant.png" alt="Un rendu de la cuisine"><div class="video-container">
+						<video controls>
+						<source src="Restaurant.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					  </video>
+					  <a href="Resto.blend" download class="download-link">Fichier téléchargeable .blend</a>
+					</div>
+					
+				</li>
+				<li>
+					<div class="video-container">
+					<h3>Smartphone en 3D</h3>
+						<video controls>
+						<source src="Smartphone.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					  </video>
+					</div>
+				</li>
+				<li>
+					<div class="video-container">
+					<h3>Montre connectée en 3D</h3>
+						<video controls>
+						<source src="Watch Animation0001-0096.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					  </video>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section id="contact-me">
+			<h2>Contactez-moi</h2>
+			<form data-netlify="true">
+				<label for="name">Nom:</label>
+				<input type="text" id="name" name="name" class="pill-input" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" class="pill-input" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" class="pill-input" required></textarea>
+				<input type="submit" value="Envoyer" class="pill-submit" required>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<script src="homepage.js"></script>
+	</footer>
+</body>
+</html>
